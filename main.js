@@ -1,6 +1,8 @@
 const field = document.querySelector('#field');
 const ball = document.querySelector('#ball');
 
+// if we move the field or change the size, code not work
+
 function move(e) {
   let fieldPosition = field.getBoundingClientRect();
 
